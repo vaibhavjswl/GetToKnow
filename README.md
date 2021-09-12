@@ -25,7 +25,7 @@ This code base is used for IGD Aspire Training Program.
  ## Contribution Guideline
 - Create your own branch like
 
- **<<your_state>>/<<alias>>** [*All Small Letters*]
+ **{your_state}/{alias}** [*All Small Letters*]
 
 ```
 assam/shnath
