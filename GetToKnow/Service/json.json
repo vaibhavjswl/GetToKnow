@@ -1,0 +1,20 @@
+{
+  "persons": [
+    {
+      "firstName": "Shubhankar",
+      "lastName": "Nath",
+      "location": {
+        "country": "India",
+        "state": "Assam"
+      }
+    },
+    {
+      "firstName": "Tanuj",
+      "lastName": "Sahal",
+      "location": {
+        "country": "India",
+        "state": "Telengana"
+      }
+    }
+  ]
+}
