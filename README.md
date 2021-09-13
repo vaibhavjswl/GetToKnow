@@ -1,4 +1,3 @@
-
 # Get to know API
 -----------
 
@@ -12,23 +11,23 @@ This code base is used for IGD Aspire Training Program.
     "lastName": "Nath",
     "location": {
         "country": "India",
-        "state": "Assam"
+        "state": "Delhi"
     }
 }
 ```
 
 ### Request URL
  ```
- https://localhost:44368/api/
+ POST https://localhost:44368/api/
  ```
 
- ## Contribution Guideline
+## Contribution Guideline
 - Create your own branch like
 
- **{your_state}/{alias}** [*All Small Letters*]
+ **{your_SunSign}/{alias}** [*All Small Letters*]
 
 ```
-assam/shnath
+tarus/shnath
 ```
 - Take latest from Master branch, resolve conflicts locally.
 - Raise a PR to main branch with proper change details.

@@ -8,9 +8,20 @@
 		{
 			"name": "GetPerson",
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
-				"url": null
+				"url": {
+					"raw": "https://localhost:44368/api/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44368",
+					"path": [
+						"api",
+						""
+					]
+				}
 			},
 			"response": []
 		}

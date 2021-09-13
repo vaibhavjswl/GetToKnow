@@ -19,26 +19,17 @@ namespace GetToKnow.Service
         }
 
         //Get a person from database
-        public Person GetPerson()
+        public (Person, bool) GetPerson()
         {
-            var index = new Random().Next(0,2);
+            var index = new Random().Next(0,5);
             try
             {
                 var data = this.persons.Persons.ToArray()[index];
-                return data;
+                return (data, true);
             }
             catch (Exception)
             {
-                return new Person
-                {
-                    FirstName = "John",
-                    LastName = "Snow",
-                    Location = new Location
-                    {
-                        Country = "The North",
-                        State = "Winterfell"
-                    }
-                };
+                return (new Person() {FirstName="John", LastName="Snow"}, false);
             }
 
         }

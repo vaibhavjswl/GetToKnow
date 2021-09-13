@@ -1,5 +1,6 @@
 ﻿using GetToKnow.Entitties;
 using GetToKnow.Service;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -12,13 +13,19 @@ namespace GetToKnow.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET: api/
-        [HttpGet]
-        public Person Get()
+        // POST: api/
+        [HttpPost]
+        public IActionResult Read()
         {
             var service = new BusinessLogic();
             var data = service.GetPerson();
-            return data;
+            if (data.Item2){
+                return Ok(data.Item1);
+            }
+            return new ObjectResult(data.Item1)
+            {
+                StatusCode=StatusCodes.Status500InternalServerError,
+            };
         }
     }
 }
