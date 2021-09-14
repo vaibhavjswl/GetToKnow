@@ -21,7 +21,7 @@ namespace GetToKnow.Service
         //Get a person from database
         public (Person, bool) GetPerson()
         {
-            var index = new Random().Next(0, persons.Persons.Length);
+            var index = new Random().Next(0,persons.Persons.Length);
             try
             {
                 var data = this.persons.Persons.ToArray()[index];

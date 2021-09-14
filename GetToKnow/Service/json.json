@@ -17,6 +17,14 @@
       }
     },
     {
+      "firstName": "Kartik",
+      "lastName": "Bhsuhan",
+      "location": {
+        "country": "India",
+        "state": "Telengana"
+      }
+    },
+    {
       "firstName": "Sneha",
       "lastName": "Saj",
       "location": {
