@@ -22,6 +22,14 @@
       "location": {
         "country": "India",
         "state": "Maharashtra"
+    }
+    },
+    {
+      "firstName": "Kartik",
+      "lastName": "Bhsuhan",
+      "location": {
+        "country": "India",
+        "state": "Telengana"
       }
     },
     {

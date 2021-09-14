@@ -21,11 +21,7 @@ namespace GetToKnow.Service
         //Get a person from database
         public (Person, bool) GetPerson()
         {
-
             var index = new Random().Next(0,persons.Persons.Length);
-            //Generating a random index where bounds are based on length of Persons item 
-            //This avoids getting out of bounds exception
-          
             try
             {
                 var data = this.persons.Persons.ToArray()[index];
