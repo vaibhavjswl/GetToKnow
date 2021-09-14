@@ -22,7 +22,15 @@
       "location": {
         "country": "India",
         "state": "Telengana"
-     }
+      }
+    },
+    {
+      "firstName": "Sneha",
+      "lastName": "Saj",
+      "location": {
+        "country": "India",
+        "state": "Delhi"
+      }
     },
     {
       "firstName": "Vidisha",
