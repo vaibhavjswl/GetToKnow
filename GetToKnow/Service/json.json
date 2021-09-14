@@ -15,6 +15,14 @@
         "country": "India",
         "state": "Telengana"
       }
+    },
+    {
+      "firstName": "Kartik",
+      "lastName": "Bhsuhan",
+      "location": {
+        "country": "India",
+        "state": "Telengana"
+      }
     }
   ]
 }
