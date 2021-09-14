@@ -13,7 +13,10 @@ namespace GetToKnow.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // POST: api/
+        /// <summary>
+        /// This is an API which shows information about person
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         public IActionResult Read()
         {
