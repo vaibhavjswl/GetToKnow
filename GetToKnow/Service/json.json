@@ -17,6 +17,14 @@
       }
     },
     {
+      "firstName": "Vidisha",
+      "lastName": "Wagle",
+      "location": {
+        "country": "India",
+        "state": "Maharashtra"
+      }
+    },
+    {
       "firstName": "Deval",
       "lastName": "Modi",
       "location": {
@@ -31,8 +39,8 @@
         "country": "India",
         "state": "WestBengal"
       }
-      },
-      {
+    },
+    {
       "firstName": "Jaitej Venkata Sai",
       "lastName": "Rapeti",
       "location": {
@@ -40,6 +48,5 @@
         "state": "Andhra Pradesh"
       }
     }
-    
   ]
 }
