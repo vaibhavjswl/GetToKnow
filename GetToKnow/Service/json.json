@@ -17,6 +17,14 @@
       }
     },
     {
+      "firstName": "Deval",
+      "lastName": "Modi",
+      "location": {
+        "country": "India",
+        "state": "Gujarat"
+      }
+    },
+    {
       "firstName": "Simran",
       "lastName": "Jalan",
       "location": {
