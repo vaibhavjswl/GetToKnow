@@ -15,6 +15,14 @@
         "country": "India",
         "state": "Telengana"
       }
+    },
+    {
+      "firstName": "Simran",
+      "lastName": "Jalan",
+      "location": {
+        "country": "India",
+        "state": "WestBengal"
+      }
     }
   ]
 }
