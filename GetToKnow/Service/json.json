@@ -15,6 +15,14 @@
         "country": "India",
         "state": "Telengana"
       }
+    },
+    {
+      "firstName": "Vaibhav",
+      "lastName": "Jaiswal",
+      "location": {
+        "country": "India",
+        "state": "Maharashtra"
+      }
     }
   ]
 }
