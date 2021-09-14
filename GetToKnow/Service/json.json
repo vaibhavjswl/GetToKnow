@@ -17,6 +17,14 @@
       }
     },
     {
+      "firstName": "Simran",
+      "lastName": "Jalan",
+      "location": {
+        "country": "India",
+        "state": "WestBengal"
+      }
+      },
+      {
       "firstName": "Jaitej Venkata Sai",
       "lastName": "Rapeti",
       "location": {
