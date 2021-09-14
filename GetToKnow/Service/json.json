@@ -23,6 +23,38 @@
         "country": "India",
         "state": "Delhi"
       }
+    },
+    {
+      "firstName": "Vidisha",
+      "lastName": "Wagle",
+      "location": {
+        "country": "India",
+        "state": "Maharashtra"
+      }
+    },
+    {
+      "firstName": "Deval",
+      "lastName": "Modi",
+      "location": {
+        "country": "India",
+        "state": "Gujarat"
+      }
+    },
+    {
+      "firstName": "Simran",
+      "lastName": "Jalan",
+      "location": {
+        "country": "India",
+        "state": "WestBengal"
+      }
+    },
+    {
+      "firstName": "Jaitej Venkata Sai",
+      "lastName": "Rapeti",
+      "location": {
+        "country": "India",
+        "state": "Andhra Pradesh"
+      }
     }
   ]
 }
