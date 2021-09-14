@@ -17,6 +17,14 @@
       }
     },
     {
+      "firstName": "Sneha",
+      "lastName": "Saj",
+      "location": {
+        "country": "India",
+        "state": "Delhi"
+      }
+    },
+    {
       "firstName": "Vidisha",
       "lastName": "Wagle",
       "location": {
